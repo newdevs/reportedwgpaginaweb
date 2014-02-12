@@ -285,6 +285,9 @@ green {
 red {
   color: #f00;
 }
+orange {
+  color: #ff0;
+}
 section.inicio {
   background-image: url("../img/imagenfondo.png");
 }
@@ -298,4 +301,7 @@ section.reportesocialmedia {
   background: rgba(0,0,0,0.7);
   padding: 30px;
   color: #fff;
+}
+img {
+  width: 20%;
 }
