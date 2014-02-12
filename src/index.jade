@@ -20,13 +20,13 @@ html
           h1 Drywall Guayabal
           h4 Reporte Área de sistemas e informática DWG. (Enero - Febrero) 2014
 
-      section
+      section.inicio
         .tint
           h2 contenido
           h3 1. Pagina web y social media.
-          h3 2. Servidor y PCs
-          h3 3. Agenda
-          h3 4. Investigación
+          h3 2. Servidor, PCs e Impresoras.
+          h3 3. Agenda.
+          h3 4. Investigación.
 
       section
         .tint
@@ -34,9 +34,9 @@ html
           h3 Desde la implementación de la pagina web hasta la fecha (11 diciembre 2013 - 11 febrero 2014).
           h3 La pagina ha sido visitada:
             green <b>160</b> veces por <b>69</b> visitantes.
-          h3 Siendo la pantalla principal la mas visitada, seguida de proyectos y contáctenos.
-          h3 El perfíl de facebook cuenta con 
-            green 53 likes. 
+          h3 Siendo la pantalla principal (index) la mas visitada, seguida de proyectos y contáctenos.
+          h3 El perfil de facebook cuenta con 
+            green 53 me gustas. 
           h3 En twitter contamos con 
             red 6 seguidores.
 
@@ -46,62 +46,93 @@ html
 
       section.reportesocialmedia
         .tint
-          h2 facebook
+          h2 reporte facebook
 
       section.medidasatomarpaginaweb
         .tint
           h2 Acciones a realizar.
           ul
+            li 
             li Crear y agregar contenido a la pagina web, facebook y twitter.
             li Tomar fotos a proyectos nuevos para subirlos a la pagina web y a facebook.
-            li Tomar fotos en los proyectos y compartirlos en el perfíl de twitter (tiempo real).
-            li Agregar nuevas funcionalidades al portal web.
+            li Tomar fotos en los proyectos y compartirlos en el perfil de twitter (tiempo real).
+            li Agregar nuevas funcionalidades y contenidos al portal web.
 
       section
         .tint
-          h2 Servidor y PCs
-          h3 Información del servidor y los PCs.
+          h2 Servidor, PCs e Impresoras
+          h3 En general el inicio de año para el ser servidor, los PCs y las impresoras es positivo.
+          h3 Todo funciona correctamente y No hemos presentado problemas críticos.
+          h3 A continuación información mas detallada...
 
       section
         .tint
           h2 Servidor
-          h3 El servidor desde su implementación a funcionado de manera 
+          h3 El servidor desde su implementación funciona de manera 
             green correcta.
-          h3. Ha presentado dos inconvenientes que ya se detectarón y se corrigierón.
+          h3. Ha presentado dos inconvenientes que se detectaron y corrigieron.
           ul
             li 
+            li 
               red No estaban configuradas las calls del servidor. 
-              green Solución: Se contacto con el vendedor del servidor y dieron soporte, configurando las calls correectamente.
+              green Solución: Se contacto con el vendedor del servidor y dieron soporte, configurando las calls correctamente.
             li 
               red El servidor se desconecta de la red. 
-              green Solución: Se detecto que al configurar las calls se crea na red adicional lo cual ocasionaba el inconveniente. el cual se deshabilito y el servidor se unió a la red.
+              green Solución: Se detecto que al configurar las calls se crea una red adicional lo cual ocasionaba el inconveniente. el cual se deshabilito y el servidor se unió a la red.
           h3 
-            green El servidor en hora NO pico su rendimiento esta en 20%.
-          h3 El servidor en horas PICO su capacidad n%
+            green El rendimiento del servidor esta en un 30%.
+
+      section
+        .tint
+          h2 PCs
+          h3 Los PCs están funcionando de forma 
+            green correcta.
+          h3 Se detecto que el servidor al asignar IP estaba repitiéndolas entre los PCs y esto generaba conflicto en la comunicación entre dispositivos. Solución: Se asignaron IP estáticas a todos los PCs.
+          h3 
+            orange La impresora compartida presenta conflictos en los drivers. Por tal motivo no deja imprimir varias copias en la impresión. Se esta buscando la solución.
+
+      section
+        .tint
+          h2 Impresoras
+          h3 La impresora EPSON lx300 necesita una reparación. por motivo que daña varias hojas al imprimir.
+          h3 Para la impresora compartida necesita reparación del escaner.
+          h3 La impresora en RED brother se cotizo recarga de los cartuchos.
+          h3 Para ver la cotización: <a href="http://goo.gl/9xKy90">clic aquí</a>
 
       section
         .tint
           h2 Agenda
-          h3 Acciones agendadas.
+          h3 febrero 13 
+          ul
+            li
+            li 08:00 am - Revisar aprobación cotización impresoras (Maria Zapata).
+            li 08:15 am - Revisar contenido y funcionalidad nueva pagina web (Faber Perez).
+            li 08:30 am - Backup servidor (quemar DVD).
+            li 09:30 am - mantenimiento preventivo a todos los PCs.
 
       section
         .tint
           h2 Investigación
-          h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+          h3 Se esta evaluando una serie de aplicaciones para la mejora de los procesos de la compañía.
           ul
-            li Bullet 1
-            li Bullet 2
-            li Bullet 3
+            li
+            li spark --> comunicación interna.
+            li varnish-cache --> velocidad servidor web.
+            li alfresco --> administración de documentación.
+            li bonitasoft --> administrador de procesos de negocios BPM.
+            li erpnext --> planificación de recursos empresariales ERP.
+          h3 Todas las soluciones mencionadas son Open source (código libre). y se están probando en un entorno de pruebas.
 
       section
         .tint
-          h2 preguntas y/ó inquietudes.        
+          h2 preguntas y/o inquietudes.        
           ul
             li <a href="http://twitter.com/jessecogollo">@jessecogollo</a>
             li Correo: <a href="http://newdevs.co">jessecogollo@newdevs.co</a>
             li celular: <a href="http://twitter.com/jessecogollo">3207906256</a>
             li <a href="http://twitter.com/newdevs">@newdevs</a>
           hr
+          img(src="img/newdevs.png")
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
