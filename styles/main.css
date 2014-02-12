@@ -256,7 +256,7 @@ h3 {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 24px;
-  color: #606060;
+  color: #fff;
 }
 h4 {
   color: #fff;
@@ -279,8 +279,20 @@ a {
   color: #0089f3;
   text-decoration: none;
 }
+green {
+  color: #0f0;
+}
+red {
+  color: #f00;
+}
 section.inicio {
   background-image: url("../img/imagenfondo.png");
+}
+section.reportepagwebgoogle {
+  background-image: url("../img/imagenreportegoogle.png");
+}
+section.reportesocialmedia {
+  background-image: url("../img/imagenreportesocialmedia.png");
 }
 .tint {
   background: rgba(0,0,0,0.7);
