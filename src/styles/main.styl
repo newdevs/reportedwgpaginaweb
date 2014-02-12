@@ -2,9 +2,9 @@
 
 // variables!
 
-slide_width = 640px
-slide_height = 480px
-slide_background = #eaeaea
+slide_width = 100%
+slide_height = 100%
+slide_background = #555555
 
 slide_transition_length = .6s
 slide_transition_easing = ease
@@ -64,10 +64,10 @@ article
   width: slide_width
   height: slide_height
   position: absolute
-  top: 50%
-  margin-top: (slide_height / 2) * -1
-  left: 50%
-  margin-left: (slide_width / 2) * -1
+  top: 0
+  margin-top: 0
+  left: 0
+  margin-left: 0
   background: slide_background
   padding: 40px
   border-radius: 0
@@ -167,17 +167,22 @@ h1
   line-height: 82px
   letter-spacing: -2px
   margin-bottom: 16px
+  color: #3CD639
 
 h2
   font-size: 42px
   letter-spacing: -1px
   margin-bottom: 8px
+  color: #3CD639
 
 h3
   font-size: 24px
   font-weight: normal
   margin-bottom: 24px
   color: #606060
+
+h4
+  color: #ffffff
 
 hr
   visibility: hidden
@@ -196,3 +201,11 @@ p
 a
   color: #0089f3
   text-decoration: none
+
+section.inicio
+  background-image url(/img/IndexImgSmall0.png)
+
+.tint
+  background rgba(0,0,0,0.7)
+  padding 30px
+  color white
